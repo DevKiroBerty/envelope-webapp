@@ -56,3 +56,8 @@ for (let i = 1; i <= 10; i++) {
     redDiv.classList.add('open');
   }
 }
+
+function resetGame() {
+  localStorage.removeItem("opened");
+  window.location.reload();
+}
